@@ -12,6 +12,10 @@
     font-style: normal;
 }
 
+body{
+    background-color: #f4f8ff;
+}
+
 /* Header Style Start */
 header{
     width: 1440px;
@@ -31,7 +35,6 @@ nav{
 }
 
 .logo{
-    color: #4E47FF;
     font-size: 34px;
     font-weight: 800;
 }
@@ -50,10 +53,156 @@ nav{
     font-weight: 800;
 }
 
+.btn-hero{
+    margin-top: 37px;
+}
 /* Header Style End */
 
-/* Shared Style Start */
+/* Main Styles Start */
+main{
+    width: 1140px;
+    margin: 0px auto;
+}
+/* Main Styles Start */
 
+
+/* Action Area Styles Start */
+.action-area{
+    margin-top: 116px;
+    margin-bottom: 116px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-item-title{
+    font-size: 42px;
+    font-weight: 600;
+    color: rgba(37, 36, 50, 1);
+}
+
+.action-item-description{
+    font-size: 24px;
+    max-width: 517px;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 23px 0px 23px 0px;
+}
+
+.action-img{
+    border-radius: 48px;
+}
+
+/* Action Area Styles End */
+
+
+/* User Data Styles Start */
+.user-data{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 80px;
+}
+.user-data-title{
+    font-size: 38px;
+}
+.user-data-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.user-data-number{
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.user-data-details{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* User Data Styles End */
+
+
+/* User Review Styles Start */
+.star-rating{
+    display: flex;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.star{
+    background-image: url(../Assets/icon-star.png);
+    width: 18px;
+    height: 17px;
+}
+
+.user-reviews{
+    margin-top:137px;
+}
+
+.user-review{
+    margin: 24px 0px 24px 0px;
+    width: 320px;
+}
+
+.user-review-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.user-review-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.user-review-single{
+    padding: 24px;
+    width: 366px;
+    border-radius: 14px;
+    background-color: #ffffff;
+}
+
+.user-review-heading{
+    color: rgba(30, 30, 30, 1);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.user-review-description{
+    margin-top: 8px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.reviewer{
+    display: flex;
+    gap: 5px;
+}
+
+.reviewer-name{
+    color: rgba(117, 117, 117, 1);
+}
+
+.review-date{
+    color: rgba(179, 179, 179, 1);
+}
+
+.reviewer-img{
+    border-radius: 50%;
+}
+
+/* User Review Styles End */
+
+
+/* Get In Touch Styles Start */
+
+/* Get In Touch Styles End */
+
+
+/* Footer Styles Start */
+
+/* Footer Styles End */
+
+
+/* Global Style Start */
 .text-center{
     text-align: center;
 }
@@ -69,5 +218,13 @@ nav{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+}
+
+.primary-color{
+    color: #4E47FF;
+}
+
+*{
+    margin: 0px;
 }
 /* Shared Style End */
