@@ -222,6 +222,61 @@ main{
 
 /* Get In Touch Styles Start */
 
+.contact{
+    margin-top: 92px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 71px 0px 71px 0px;
+}
+
+.contact-title{
+    font-size: 91px;
+    font-weight: bolder;
+    width: 528px;
+    color: #000000;
+}
+
+/* .contact-form{
+    width: 497px;
+} */
+
+form label{
+    display: block;
+    font-size: 18px;
+    color: #000000;
+}
+
+form input, textarea{
+    margin-top: 10px;
+    margin-bottom: 19px;
+}
+
+form input[type="email"], input[type="text"], textarea{
+    padding: 20px 32px 20px 32px;
+    width: 497px;
+    border-radius: 10px;
+    border: none;
+}
+
+form input::placeholder, textarea::placeholder{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-contact-form{
+    color: #ffffff;
+    background-color: #4E47FF;
+    padding: 19px 101px 19px 101px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    font-weight: bold;
+}
+
 /* Get In Touch Styles End */
 
 
