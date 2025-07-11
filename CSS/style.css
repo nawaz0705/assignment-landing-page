@@ -218,6 +218,16 @@ main{
     margin-top: 20px;
 }
 
+.btn-focus{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    border: none;
+}
+
 
 
 
@@ -257,6 +267,10 @@ form label{
 form input, textarea{
     margin-top: 10px;
     margin-bottom: 19px;
+}
+
+textarea{
+    resize: none;
 }
 
 form input[type="email"], input[type="text"], textarea{
