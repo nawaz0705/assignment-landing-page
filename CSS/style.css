@@ -55,6 +55,7 @@ nav{
 
 .btn-hero{
     margin-top: 37px;
+    transition-duration: 0.5s;
 }
 /* Header Style End */
 
@@ -226,6 +227,7 @@ main{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    transition-duration: 0.5s;
 }
 
 
@@ -293,6 +295,7 @@ form input::placeholder, textarea::placeholder{
     border: none;
     width: 100%;
     font-weight: bold;
+    transition-duration: 0.5s;
 }
 
 /* Get In Touch Styles End */
@@ -358,6 +361,13 @@ ul.footer-nav li a{
     padding: 12px 36px;
     border-radius: 10px;
     border: none;
+    transition-duration: 0.5s;
+}
+
+.animated:hover{
+    background-color: #e4e6ff;
+    color: #4e47fe;
+    cursor: pointer;
 }
 
 .primary-color{
